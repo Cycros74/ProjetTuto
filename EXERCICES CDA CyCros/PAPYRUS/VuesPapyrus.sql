@@ -1,0 +1,31 @@
+USE papyrus
+;
+
+--1
+CREATE VIEW GlobalCde1
+as
+SELECT CODART,SUM(QTECDE)as Qtetot,SUM(QTECDE*PRIUNI) as Prixtot FROM STG02.LIGCOM
+GROUP BY CODART
+;
+SELECT * FROM GlobalCde1
+;
+
+--2
+CREATE VIEW Ventesl100
+as
+SELECT * 
+FROM stg02.VENTE
+WHERE CODART = 'l100'
+;
+SELECT * FROM Ventesl100
+;
+
+--3
+CREATE VIEW Ventesl100Grobrigan
+as 
+SELECT * 
+FROM Ventesl100
+WHERE NUMFOU = 120
+;
+SELECT * FROM Ventesl100Grobrigan
+;

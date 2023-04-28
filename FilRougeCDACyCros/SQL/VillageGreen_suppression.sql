@@ -1,0 +1,18 @@
+----- Suppression de la base Village Green existante
+USE VILLAGEGREEN
+DROP USER VG_us01
+;
+DROP USER VG_us02
+;
+DROP USER VG_us03
+;
+USE master
+;
+DROP LOGIN VG_log01
+;
+DROP LOGIN VG_log02
+;
+DROP LOGIN VG_log03
+;
+DROP DATABASE VILLAGEGREEN
+;

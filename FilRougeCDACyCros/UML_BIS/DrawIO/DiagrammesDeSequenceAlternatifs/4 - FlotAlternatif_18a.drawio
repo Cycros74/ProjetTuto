@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2023-04-03T10:20:12.329Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="lN_6A8Ti6Ggenfn1_xaG" version="21.1.2" type="device">
+  <diagram id="sJgwM9JUG1OU5zjvtu9S" name="Page-1">
+    <mxGraphModel dx="1364" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LEfoLGZIUjk_VnNZPhdS-1" value="Commercial&lt;br&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="30" width="20" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LEfoLGZIUjk_VnNZPhdS-2" value="Système" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="30" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LEfoLGZIUjk_VnNZPhdS-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="LEfoLGZIUjk_VnNZPhdS-2" vertex="1">
+          <mxGeometry x="45" y="65" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LEfoLGZIUjk_VnNZPhdS-4" value="Ne confirme pas la commande" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=-0.267;entryY=0.233;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LEfoLGZIUjk_VnNZPhdS-1" target="LEfoLGZIUjk_VnNZPhdS-3" edge="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="320" y="210" as="sourcePoint" />
+            <mxPoint x="380" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFTOqJKOeb31dnRPxsJn-4" value="Le cas d&#39;utilisation prend fin" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.033;exitY=0.643;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LEfoLGZIUjk_VnNZPhdS-3" target="LEfoLGZIUjk_VnNZPhdS-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="190" as="sourcePoint" />
+            <mxPoint x="380" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

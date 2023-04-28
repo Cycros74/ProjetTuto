@@ -1,0 +1,254 @@
+<mxfile host="app.diagrams.net" modified="2023-04-03T09:56:37.951Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="iOxeIk4_3govlynelv_O" version="21.1.2" type="device">
+  <diagram id="erBDyrxgNQ5oR5OFIVIp" name="Page-1">
+    <mxGraphModel dx="1364" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;verticalAlign=bottom;spacingTop=36;labelBackgroundColor=#ffffff;outlineConnect=0;fontFamily=Verdana;fontStyle=1;fontSize=13;align=center;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="10" width="20" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-2" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Verdana;fontStyle=1;fontSize=13;align=center;html=1;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="680" y="10" width="100" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-46" value="" style="points=[];perimeter=orthogonalPerimeter;fontFamily=Verdana;fontSize=13;fontStyle=1;align=center;html=1;verticalAlign=bottom;" parent="8iI3AYGNqd8Zycjgc9Fv-2" vertex="1">
+          <mxGeometry x="45" y="100" width="10" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-21" value="" style="endArrow=classic;edgeStyle=orthogonalEdgeStyle;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.983;exitY=0.353;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.412;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;verticalAlign=bottom;" parent="8iI3AYGNqd8Zycjgc9Fv-2" source="8iI3AYGNqd8Zycjgc9Fv-46" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="460" as="sourcePoint" />
+            <mxPoint x="60" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="121" y="460" />
+              <mxPoint x="121" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-22" value="9.    Le système contrôle l’existence de la référence." style="edgeLabel;align=center;verticalAlign=bottom;resizable=0;points=[];fontFamily=Verdana;fontStyle=1;fontSize=13;html=1;" parent="8iI3AYGNqd8Zycjgc9Fv-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.3019" y="-23" relative="1" as="geometry">
+            <mxPoint x="222" y="39.07" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-32" value="" style="endArrow=classic;edgeStyle=orthogonalEdgeStyle;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.945;exitY=0.824;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.118;entryY=0.882;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;verticalAlign=bottom;" parent="8iI3AYGNqd8Zycjgc9Fv-2" source="8iI3AYGNqd8Zycjgc9Fv-46" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="60" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="121" y="941" />
+              <mxPoint x="121" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-33" value="19.    Le système enregistre la commande et lui attribue un numéro." style="edgeLabel;align=center;verticalAlign=bottom;resizable=0;points=[];fontFamily=Verdana;fontStyle=1;fontSize=13;html=1;" parent="8iI3AYGNqd8Zycjgc9Fv-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.3019" y="-23" relative="1" as="geometry">
+            <mxPoint x="272" y="39.379999999999995" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-4" value="2.    Le système lui affiche un formulaire de commande vierge." style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.001;exitY=0.058;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" target="8iI3AYGNqd8Zycjgc9Fv-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="170" as="sourcePoint" />
+            <mxPoint x="250" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-6" value="3.    Le commercial saisit la référence du client." style="verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=0.053;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70.00352941176465" y="230" as="sourcePoint" />
+            <mxPoint x="720" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260.68" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-8" value="5.    Le système remplit les champs de coordonnées du client automatiquement." style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.001;exitY=0.176;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="290" as="sourcePoint" />
+            <mxPoint x="70.00352941176465" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430.68" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-14" value="" style="endArrow=classic;edgeStyle=orthogonalEdgeStyle;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.983;exitY=0.117;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;verticalAlign=bottom;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="230" as="sourcePoint" />
+            <mxPoint x="735" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="229" />
+              <mxPoint x="800" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-15" value="4.    Le système contrôle l’existence de la référence." style="edgeLabel;align=center;verticalAlign=bottom;resizable=0;points=[];fontFamily=Verdana;fontStyle=1;fontSize=13;html=1;" parent="8iI3AYGNqd8Zycjgc9Fv-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.3019" y="-23" relative="1" as="geometry">
+            <mxPoint x="223" y="38.870000000000005" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-17" value="1.    Le commercial ouvre le module de gestion de commande." style="verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=0.105;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="69.5" y="110" as="sourcePoint" />
+            <mxPoint x="720" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="110" />
+              <mxPoint x="260" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-18" value="6.    Le commercial valide les coordonnées du client." style="verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=0.027;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70.0035294117647" y="350" as="sourcePoint" />
+            <mxPoint x="720" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260.68" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-20" value="8. Le commercial saisit la référence du produit." style="verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=0.013;entryY=0.353;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70.0035294117647" y="470" as="sourcePoint" />
+            <mxPoint x="720" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260.68" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-23" value="10.    Le système affiche les informations du produit." style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=-0.002;exitY=0.411;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="530" as="sourcePoint" />
+            <mxPoint x="70.0035294117647" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430.68" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-25" value="11. Le commercial entre la quantité d’article voulue.&lt;br&gt;" style="verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=-0.004;entryY=0.471;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70.0035294117647" y="590" as="sourcePoint" />
+            <mxPoint x="720" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260.68" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-26" value="7.    Le système affiche la feuille commande." style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.013;exitY=0.294;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="410" as="sourcePoint" />
+            <mxPoint x="70.0035294117647" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430.68" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-27" value="13. Le système calcul et affiche le prix HT et TTC de la commande." style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.003;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="650" as="sourcePoint" />
+            <mxPoint x="70.0035294117647" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430.68" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-28" value="15. Le système affiche la saisie d’une réduction." style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.004;exitY=0.647;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="770" as="sourcePoint" />
+            <mxPoint x="70.00352941176482" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430.68" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-29" value="16. Le commercial saisit la réduction.&lt;br&gt;" style="verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=-0.006;entryY=0.706;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70.00352941176482" y="830" as="sourcePoint" />
+            <mxPoint x="720" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260.68" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-30" value="17. Le système affiche le prix recalculé." style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.015;exitY=0.765;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="890" as="sourcePoint" />
+            <mxPoint x="70.00352941176482" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430.68" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-31" value="18.    Le commercial confirme la commande.&lt;br&gt;" style="verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=0.015;entryY=0.824;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70.0035294117647" y="950" as="sourcePoint" />
+            <mxPoint x="720" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260.68" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-37" value="" style="endArrow=classic;edgeStyle=orthogonalEdgeStyle;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=1.034;exitY=0.471;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;verticalAlign=bottom;" parent="1" source="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="590" as="sourcePoint" />
+            <mxPoint x="735" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="801" y="590" />
+              <mxPoint x="801" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-38" value="12.    Le système vérifie la disponibilité en stock." style="edgeLabel;align=center;verticalAlign=bottom;resizable=0;points=[];fontFamily=Verdana;fontStyle=1;fontSize=13;html=1;" parent="8iI3AYGNqd8Zycjgc9Fv-37" vertex="1" connectable="0">
+          <mxGeometry x="-0.3019" y="-23" relative="1" as="geometry">
+            <mxPoint x="212" y="38.260000000000005" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-39" value="14. Le commercial valide la liste des produits.&lt;br&gt;" style="verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=-0.025;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70.0035294117647" y="710" as="sourcePoint" />
+            <mxPoint x="720" y="710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260.68" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-40" value="" style="endArrow=classic;edgeStyle=orthogonalEdgeStyle;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=1.017;entryY=0.941;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;verticalAlign=bottom;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1010" as="sourcePoint" />
+            <mxPoint x="740" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="801" y="1010" />
+              <mxPoint x="801" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-41" value="20.    Le système édite un bon de commande.&lt;br&gt;" style="edgeLabel;align=center;verticalAlign=bottom;resizable=0;points=[];fontFamily=Verdana;fontStyle=1;fontSize=13;html=1;" parent="8iI3AYGNqd8Zycjgc9Fv-40" vertex="1" connectable="0">
+          <mxGeometry x="-0.3019" y="-23" relative="1" as="geometry">
+            <mxPoint x="192" y="25.8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-42" value="" style="endArrow=classic;edgeStyle=orthogonalEdgeStyle;fontFamily=Verdana;fontStyle=1;fontSize=13;entryX=1.017;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;align=center;html=1;verticalAlign=bottom;" parent="1" target="8iI3AYGNqd8Zycjgc9Fv-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="1070" as="sourcePoint" />
+            <mxPoint x="740" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="801" y="1070" />
+              <mxPoint x="801" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-43" value="21.    Le système édite un bon de commande.&lt;br&gt;" style="edgeLabel;align=center;verticalAlign=bottom;resizable=0;points=[];fontFamily=Verdana;fontStyle=1;fontSize=13;html=1;" parent="8iI3AYGNqd8Zycjgc9Fv-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.3019" y="-23" relative="1" as="geometry">
+            <mxPoint x="192" y="25.8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8iI3AYGNqd8Zycjgc9Fv-49" value="22. Le système affiche que tout a était validé" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontStyle=1;fontSize=13;exitX=0.001;exitY=0.176;exitDx=0;exitDy=0;exitPerimeter=0;align=center;html=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725.0100000000002" y="1130" as="sourcePoint" />
+            <mxPoint x="70.0035294117647" y="1130.48" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430.68" y="1130.48" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,14 @@
+Le personnel demande la création d'un nouvel emprunt.
+Le système affichent la liste des côtes disponible pour cet emprunt.
+Le personnel selectionne le document demandé et valide
+Le système interoge le personnel sur le profil usager (affiche la liste des usages ou un champ texte pour taper le code usager).
+Le personne renseigne les informations concernant l'usager ( carte de lecteur).
+le système affiche la ficher de lusager
+le personnel valide la fiche
+Le système interogge le personne sur la durée de l'emprunt
+Le personne personnel valide le durée de l'emprunt.
+La système affiche une confirmation d'emprunt assignant la côte à l'usager selectionné.
+Le personnel valide l'empunt
+Le système affiche la confirmation
+
+
