@@ -18,12 +18,15 @@ class UserListener
     public function prePersist(User $user)
     {
             $this->encodePassword($user);
+        
     }
 
     public function preUpdate(User $user)
-    {  
-            $this->encodePassword($user);
+    {
+
+        $this->encodePassword($user);
     }
+
     
     /**
      * Encode password based on plain password
