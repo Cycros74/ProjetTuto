@@ -3,9 +3,11 @@
 namespace App\DataFixtures;
 
 use Faker\Factory;
+use App\Entity\Mark;
 use App\Entity\User;
 use Faker\Generator;
 use App\Entity\Recipe;
+use App\Entity\Contact;
 use App\Entity\Ingredient;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\Bundle\FixturesBundle\Fixture;
@@ -88,6 +90,31 @@ class AppFixtures extends Fixture
 
             $recipes[] = $recipe;    
             $manager->persist($recipe);
+        }
+
+        // Marks
+
+        foreach ($recipes as $recipe) {
+           for ($i=0; $i < mt_rand(0, 4); $i++) {
+                $mark = new Mark();
+                $mark->setMark(mt_rand(1, 5))
+                    ->setUser($users[mt_rand(0, count($users) - 1)])
+                    ->setRecipe($recipe);
+
+                $manager->persist($mark);
+                
+           }        
+        }
+
+        // Contact
+        for ($i = 0; $i < 5; $i++) {
+            $contact = new Contact();
+            $contact->setFullName($this->faker->name())
+                ->setEmail($this->faker->email())
+                ->setSubject('Demande n°' . ($i + 1))
+                ->setMessage($this->faker->text());
+
+            $manager->persist($contact);
         }
 
 
