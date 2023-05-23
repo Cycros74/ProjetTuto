@@ -51,7 +51,6 @@ class RecipeController extends AbstractController
         ]);
     }
 
-
     
     /**
      * 

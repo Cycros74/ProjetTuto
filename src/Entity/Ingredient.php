@@ -2,10 +2,9 @@
 
 namespace App\Entity;
 
-use DateTimeImmutable;
-use App\Entity\Ingredient;
-use Doctrine\ORM\Mapping as ORM;
 use App\Repository\IngredientRepository;
+use DateTimeImmutable;
+use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Validator\Constraints as Assert;
 
@@ -21,29 +20,28 @@ class Ingredient
     #[ORM\Column(type: 'string', length: 50)]
     #[Assert\NotBlank()]
     #[Assert\Length(min: 2, max: 50)]
-    private ?string $name;
+    private string $name;
 
     #[ORM\Column(type: 'float')]
     #[Assert\NotNull()]
     #[Assert\Positive()]
     #[Assert\LessThan(200)]
-    private ?float $price = null;
+    private float $price;
 
     #[ORM\Column(type: 'datetime_immutable')]
     #[Assert\NotNull()]
-    private ?\DateTimeImmutable $createdAt;
+    private ?DateTimeImmutable $createdAt;
 
-    #[ORM\ManyToOne(inversedBy: 'ingredients')]
+    #[ORM\ManyToOne(targetEntity: User::class, inversedBy: 'ingredients')]
     #[ORM\JoinColumn(nullable: false)]
-    private ?User $user = null;
-
+    private $user;
 
     /**
      * Constructor
      */
     public function __construct()
     {
-        $this->createdAt = new DateTimeImmutable();
+        $this->createdAt = new \DateTimeImmutable();
     }
 
     public function getId(): ?int
@@ -89,7 +87,7 @@ class Ingredient
 
     public function __toString()
     {
-            return $this->name;
+        return $this->name;
     }
 
     public function getUser(): ?User

@@ -14,7 +14,7 @@ class HomeController extends AbstractController
         RecipeRepository $recipeRepository
     ): Response
     {
-        return $this->render('ingredient/home.html.twig', [
+        return $this->render('pages/home.html.twig', [
             'recipes' => $recipeRepository->findPublicRecipe(3)
 
         ]);
