@@ -8,7 +8,7 @@ J'ai intégré également l'API EasyAdmin qui permet à un ou plusieurs administ
 
 ## Vue de l'accueil: 
 
-![Markdown Logo](https://zupimages.net/up/23/22/oj0m.png)
+![Markdown Logo](https://zupimages.net/up/23/22/9309.png)
 
 Dans l'accueil , j'ai introduit une NavBar qui est modifiée en fonction du contexte, si l'utilisateur est connecté cela permet d'accéder à ses recettes.
 S'il possède un rôle administrateur cela permet l'accès au panneau d'administateur et la barre de navigation s'adapte en fonction de l'utilisateur
